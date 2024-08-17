@@ -1,13 +1,14 @@
 ---
 title: Contact
 ---
-Email: <a id="email">my first name at this hostname</a>
+Email: <a id="email">my first name at first name dot info</a>
 
 <script type="text/javascript">
   let hostname = new URL(window.location.href).hostname;
   let first = hostname.split(".")[0];
-  let address = first + '@' + hostname;
+  let address = first + '@' + first + '.' +
+    [0x69, 0x6e, 0x66, 0x6f].map(x => String.fromCharCode(x)).join('');
   let anchor = document.getElementById("email");
   anchor.href = 'mailto:' + address;
-  anchor.innerHTML = first + '@' + hostname;
+  anchor.innerHTML = address;
 </script>
