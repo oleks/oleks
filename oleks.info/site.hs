@@ -8,9 +8,9 @@ import qualified DT as DT
 --------------------------------------------------------------------------------
 main :: IO ()
 main = do
-  timestamp <- DT.timestamp
+  datestamp <- DT.datestamp
   let defaultCtx =
-        constField "time" timestamp `mappend`
+        constField "date" datestamp `mappend`
         constField "header" "Oleks" `mappend`
         defaultContext
 
