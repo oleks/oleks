@@ -15,7 +15,7 @@ main = hakyll $ do
         route   idRoute
         compile compressCssCompiler
 
-    match (fromList ["about.rst", "contact.markdown"]) $ do
+    match (fromList ["about.rst"]) $ do
         route   $ setExtension "html"
         compile $ pandocCompiler
             >>= loadAndApplyTemplate "templates/default.html" defaultCtx
@@ -54,6 +54,18 @@ main = hakyll $ do
             getResourceBody
                 >>= applyAsTemplate indexCtx
                 >>= loadAndApplyTemplate "templates/default.html" indexCtx
+                >>= relativizeUrls
+
+    match "contact.html" $ do
+        route idRoute
+        compile $ do
+            let contactCtx =
+                    constField "title" "Contact"            `mappend`
+                    defaultCtx
+
+            getResourceBody
+                >>= applyAsTemplate contactCtx
+                >>= loadAndApplyTemplate "templates/default.html" contactCtx
                 >>= relativizeUrls
 
     match "templates/*" $ compile templateBodyCompiler
