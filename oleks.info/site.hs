@@ -2,11 +2,19 @@
 {-# LANGUAGE OverloadedStrings #-}
 import           Data.Monoid (mappend)
 import           Hakyll
+import qualified DT as DT
 
 
 --------------------------------------------------------------------------------
 main :: IO ()
-main = hakyll $ do
+main = do
+  timestamp <- DT.timestamp
+  let defaultCtx =
+        constField "time" timestamp `mappend`
+        constField "header" "Oleks" `mappend`
+        defaultContext
+
+  hakyll $ do
     match "images/*" $ do
         route   idRoute
         compile copyFileCompiler
@@ -21,39 +29,12 @@ main = hakyll $ do
             >>= loadAndApplyTemplate "templates/default.html" defaultCtx
             >>= relativizeUrls
 
-    match "posts/*" $ do
-        route $ setExtension "html"
-        compile $ pandocCompiler
-            >>= loadAndApplyTemplate "templates/post.html"    postCtx
-            >>= loadAndApplyTemplate "templates/default.html" postCtx
-            >>= relativizeUrls
-
-    create ["archive.html"] $ do
-        route idRoute
-        compile $ do
-            posts <- recentFirst =<< loadAll "posts/*"
-            let archiveCtx =
-                    listField "posts" postCtx (return posts) `mappend`
-                    constField "title" "Archives"            `mappend`
-                    defaultCtx
-
-            makeItem ""
-                >>= loadAndApplyTemplate "templates/archive.html" archiveCtx
-                >>= loadAndApplyTemplate "templates/default.html" archiveCtx
-                >>= relativizeUrls
-
-
     match "index.html" $ do
         route idRoute
         compile $ do
-            posts <- recentFirst =<< loadAll "posts/*"
-            let indexCtx =
-                    listField "posts" postCtx (return posts) `mappend`
-                    defaultCtx
-
             getResourceBody
-                >>= applyAsTemplate indexCtx
-                >>= loadAndApplyTemplate "templates/default.html" indexCtx
+                >>= applyAsTemplate defaultCtx
+                >>= loadAndApplyTemplate "templates/default.html" defaultCtx
                 >>= relativizeUrls
 
     match "contact.html" $ do
@@ -72,12 +53,3 @@ main = hakyll $ do
 
 
 --------------------------------------------------------------------------------
-defaultCtx :: Context String
-defaultCtx =
-    constField "header" "Oleks" `mappend`
-    defaultContext
-
-postCtx :: Context String
-postCtx =
-    dateField "date" "%B %e, %Y" `mappend`
-    defaultCtx
