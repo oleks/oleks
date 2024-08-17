@@ -18,7 +18,7 @@ main = hakyll $ do
     match (fromList ["about.rst", "contact.markdown"]) $ do
         route   $ setExtension "html"
         compile $ pandocCompiler
-            >>= loadAndApplyTemplate "templates/default.html" defaultContext
+            >>= loadAndApplyTemplate "templates/default.html" defaultCtx
             >>= relativizeUrls
 
     match "posts/*" $ do
@@ -35,7 +35,7 @@ main = hakyll $ do
             let archiveCtx =
                     listField "posts" postCtx (return posts) `mappend`
                     constField "title" "Archives"            `mappend`
-                    defaultContext
+                    defaultCtx
 
             makeItem ""
                 >>= loadAndApplyTemplate "templates/archive.html" archiveCtx
@@ -49,7 +49,7 @@ main = hakyll $ do
             posts <- recentFirst =<< loadAll "posts/*"
             let indexCtx =
                     listField "posts" postCtx (return posts) `mappend`
-                    defaultContext
+                    defaultCtx
 
             getResourceBody
                 >>= applyAsTemplate indexCtx
@@ -60,7 +60,12 @@ main = hakyll $ do
 
 
 --------------------------------------------------------------------------------
+defaultCtx :: Context String
+defaultCtx =
+    constField "header" "Oleks's Website" `mappend`
+    defaultContext
+
 postCtx :: Context String
 postCtx =
     dateField "date" "%B %e, %Y" `mappend`
-    defaultContext
+    defaultCtx
