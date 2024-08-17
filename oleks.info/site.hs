@@ -74,7 +74,7 @@ main = hakyll $ do
 --------------------------------------------------------------------------------
 defaultCtx :: Context String
 defaultCtx =
-    constField "header" "Oleks's Website" `mappend`
+    constField "header" "Oleks" `mappend`
     defaultContext
 
 postCtx :: Context String
