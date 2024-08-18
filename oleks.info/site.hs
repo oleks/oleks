@@ -37,18 +37,6 @@ main = do
                 >>= loadAndApplyTemplate "templates/default.html" defaultCtx
                 >>= relativizeUrls
 
-    match "contact.html" $ do
-        route idRoute
-        compile $ do
-            let contactCtx =
-                    constField "title" "Contact"            `mappend`
-                    defaultCtx
-
-            getResourceBody
-                >>= applyAsTemplate contactCtx
-                >>= loadAndApplyTemplate "templates/default.html" contactCtx
-                >>= relativizeUrls
-
     match "templates/*" $ compile templateBodyCompiler
 
 

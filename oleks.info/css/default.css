@@ -23,6 +23,14 @@ nav a {
   text-transform: uppercase;
 }
 
+.contact .i {
+  display: inline;
+  margin-right: 0.6rem;
+}
+
+.contact .i img {
+}
+
 footer {
   margin-top: 3rem;
   padding: 1.2rem 0;
