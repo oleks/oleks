@@ -33,6 +33,17 @@ dynamic environments.
 Publications
 ============
 
+  * Shturmov, O., Thomsen, M. K. (2024, November). **remarks —
+    Machinery for Marking Student Work**. In *Proceedings of the
+    Norwegian Conference on Didactics in IT Education (UDIT 2024)*.
+    https://easychair.org/smart-program/NIKT2024/2024-11-26.html#talk:272172
+
+  * Shturmov, O. **Adaptive Multi-Agent Programming with Promises**.
+    (2024, September). In *Proceedings of the Doctoral Symposium of the
+    5th IEEE International Conference on Autonomic Computing and
+    Self-Organizing Systems (ACSOS 2024)*.
+    https://2024.acsos.org/details/acsos-2024-doctoral-symposium/1/Adaptive-Multi-Agent-Programming-with-Promises
+
   * Kristensen, J. T., Perhác, J., Tveito, L., Husted, L. B.,
     Vadgaard, M. K. T., Shturmov, O., ... & Steingartner, W. (2024,
     May). **OnlineProver: A proof assistant for online teaching of
