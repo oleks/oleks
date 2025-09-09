@@ -95,4 +95,19 @@ Advanced Programming 2015
 Computer Architecture 2015
 --------------------------
 
+========================
+Supervision and Advising
+========================
 
+----------
+MSc Theses
+----------
+
+* Røyen, Tonje. **A Collaborative Internet Archive for Personal
+  and Social Use**. MSc thesis. University of Oslo. Available at
+  https://www.duo.uio.no/handle/10852/81210
+
+* Zeybek, Tolga. **Browsing Butler Model - A New Way for Smartphone
+  Users to Interact With Media Elements on a Web Page**. MSc thesis.
+  University of Oslo. Available at
+  https://www.duo.uio.no/handle/10852/80630
