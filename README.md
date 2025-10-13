@@ -1,7 +1,8 @@
 ## Hi there 👋
 
-I am an all-round Computer Science enthusiast guided by a pursuit of
-building high-quality digital tools with sizable real-world applications.
+I help coders grow sustainable computer systems, which (1) deliver value, and
+(2) can be evolved to meet changing requirements, by a chainging team of
+coders, with reasonable effort.
 
 To that end, I maintain a split
 [academic](https://oleks.info/research.html) and
