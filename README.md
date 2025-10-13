@@ -10,9 +10,9 @@ To that end, I maintain a split
 programmer, a [passionate teacher](https://oleks.info/teaching.html),
 and an [Open Source enthusiast](https://oleks.info/projects.html).
 
-I was born in 1990 in Kyiv, Ukraine, but have been living in
-Scandinavia since the age of 10. I tend to surprise people with my
-affluent Danish and Ukrainian at no expense of my English skills.
+I was born in 1990 in Kyiv, Ukraine, but have been living in Scandinavia since
+the age of 10. I tend to surprise people with my affluent Danish and Ukrainian,
+at no expense of my pan-European, academic English.
 
 <!--
 **oleks/oleks** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
