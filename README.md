@@ -1,7 +1,7 @@
 ## Hi there 👋
 
 I help coders grow sustainable computer systems, which (1) deliver value, and
-(2) can be evolved to meet changing requirements, by a chainging team of
+(2) can be evolved to meet changing requirements, by a changing team of
 coders, with reasonable effort.
 
 To that end, I maintain a split
