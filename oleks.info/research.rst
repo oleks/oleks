@@ -2,17 +2,37 @@
 title: Research
 ---
 
-I have a general research interest in **programming paradigms design
-and implementation**. I am driven by a recurring passion to alleviate
-the (human) challenges involved in programming in various domains.
+I am generally interested in **programming paradigms** and associated
+**evaluation** techniques. I strive alleviate the challenges involved
+in programming, be it by human or machine.
+
+My background has forged my appreciation of programming as a
+fundamentally human activity[#]_,[#]_. As a consequence, I generally
+pity the fact that most advances in programming paradigms are driven
+by anecdotal, rather than empirical evidence of their utility.
+
+.. [#] Naur, Peter. Computing: A human activity -- Selected Writings From 1951 To 1990. ACM, 1992.
+.. [#] Dijkstra, Edsger. "Programming considered as a human activity." Classics in software engineering. 1979. 1-9.
+
+Recent advances in artificial intelligence have generally shifted the
+human challenges involved in programming from writing to specifying
+and evaluating programs. This does not make programming paradigm
+research any less important; for two hypothetical reasons:
+
+  1. It is easier to evaluate concise, high-level code, rather than
+     verbose, low-level code. It is then best to leave it to a trusted,
+     deterministic compiler to convert the high-level code into
+     efficient, executable code.
+
+  2. Machines exert readily measurable effort to write code; the less
+     they exert, the better. How much they exert, and how much
+     back-and-forth must happen between the human and the machine on the
+     requirements, depends on the programming paradigm.
 
 My research then tends to have multiple tiers:
 
   1. Identify some challenges that programmers have when programming in
-     the particular domain. Obtaining data on this is generally
-     hard. For instance, because programming language design and
-     implementation does not tend to be driven by empirical, but rather,
-     anecdotal evidence.
+     the particular domain.
 
   2. Hypothesise improvements, design and implement them in the form
      of alternative programming languages or runtimes.
@@ -24,7 +44,7 @@ As such and overall, I have also gained a research interest in
 **Computer Science Education**, **Software Engineering**,
 **Human-Computer Interaction**, and **Information Retrieval**.
 
-At present (2024), I am in particular interested in advancing the
+At present (2026), I am in particular interested in advancing the
 state of the art of programming **adaptive multi-agent systems**,
 where multiple agents cooperate towards a common objective in highly
 dynamic environments.
