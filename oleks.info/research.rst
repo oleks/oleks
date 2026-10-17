@@ -7,12 +7,13 @@ I am generally interested in **programming paradigms** and associated
 involved in programming, be it by human or machine.
 
 My background has forged my appreciation of programming as a
-fundamentally human activity[#]_,[#]_. As a consequence, I generally
-lament the fact that most advances in programming paradigms are driven
-by anecdotal, rather than empirical evidence of their utility.
+fundamentally human activity [Naur92]_ [Dijkstra79]_. As a
+consequence, I generally lament the fact that most advances in
+programming paradigms are driven by anecdotal, rather than empirical
+evidence of their utility.
 
-.. [#] Naur, Peter. Computing: A human activity -- Selected Writings From 1951 To 1990. ACM, 1992.
-.. [#] Dijkstra, Edsger. "Programming considered as a human activity." Classics in software engineering. 1979. 1-9.
+.. [Naur92] Naur, Peter. Computing: A human activity -- Selected Writings From 1951 To 1990. ACM, 1992.
+.. [Dijkstra79] Dijkstra, Edsger. "Programming considered as a human activity." Classics in software engineering. 1979. 1-9.
 
 Recent advances in artificial intelligence have generally shifted the
 human challenges involved in programming from writing to specifying
