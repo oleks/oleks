@@ -18,17 +18,20 @@ evidence of their utility.
 Recent advances in artificial intelligence have generally shifted the
 human challenges involved in programming from writing to specifying
 and evaluating programs. This does not make programming paradigm
-research any less important; for two hypothetical reasons:
+research any less important. In particular, I conjecture:
 
   1. It is easier to evaluate concise, high-level code, rather than
-     verbose, low-level code. It is then best to leave it to a trusted,
-     deterministic compiler to convert the high-level code into
-     efficient, executable code.
+     verbose, low-level code.
 
-  2. Machines exert readily measurable effort to write code; the less
-     they exert, the better. How much they exert, and how much
-     back-and-forth must happen between the human and the machine on the
-     requirements, depends on the programming paradigm.
+  2. It is best to leave it to a deterministic compiler to convert
+     evaluated high-level code into efficient, executable code.
+
+  3. Machines exert readily measurable effort to write code. The less
+     they exert, the better. How much they exert depends on the
+     programming paradigm.
+
+  4. How much back-and-forth happens between the human and the machine in
+     the process of code generation, depends on the programming paradigm.
 
 My research then tends to have multiple tiers:
 
