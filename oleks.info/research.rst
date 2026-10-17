@@ -3,8 +3,8 @@ title: Research
 ---
 
 I am generally interested in **programming paradigms** and associated
-**evaluation** techniques. I strive alleviate the challenges involved
-in programming, be it by human or machine.
+**evaluation** techniques. I strive to alleviate the challenges
+involved in programming, be it by human or machine.
 
 My background has forged my appreciation of programming as a
 fundamentally human activity[#]_,[#]_. As a consequence, I generally
