@@ -8,7 +8,7 @@ involved in programming, be it by human or machine.
 
 My background has forged my appreciation of programming as a
 fundamentally human activity[#]_,[#]_. As a consequence, I generally
-pity the fact that most advances in programming paradigms are driven
+lament the fact that most advances in programming paradigms are driven
 by anecdotal, rather than empirical evidence of their utility.
 
 .. [#] Naur, Peter. Computing: A human activity -- Selected Writings From 1951 To 1990. ACM, 1992.
