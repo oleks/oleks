@@ -26,9 +26,9 @@ important. In particular, I conjecture:
   2. It is best to leave it to a deterministic compiler to convert
      evaluated high-level code into efficient, executable code.
 
-  3. Machines exert readily measurable effort to write code. The less
-     they exert, the better. How much they exert depends on the
-     programming paradigm.
+  3. Machines exert readily measurable effort to write code. The
+     choice of programming paradigm has an effect on how much effort
+     they must exert to meet the request.
 
   4. How much back-and-forth happens between the human and the machine in
      the process of code generation, depends on the programming paradigm.
