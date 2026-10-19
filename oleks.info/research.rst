@@ -6,11 +6,6 @@ I am generally interested in **programming paradigms** and associated
 **evaluation** techniques. I strive to alleviate the challenges
 involved in programming, be it by human or machine.
 
-At present, I am particularly interested in advancing the state of the
-art of programming **adaptive multi-agent systems**, where multiple
-agents cooperate towards a common objective in highly dynamic
-environments.
-
 My background has forged my appreciation of programming as a
 fundamentally human activity [Naur92]_ [Dijkstra79]_. As a
 consequence, I generally lament the fact that most advances in
@@ -38,7 +33,12 @@ important. In particular, I conjecture:
   4. How much back-and-forth happens between the human and the machine in
      the process of code generation, depends on the programming paradigm.
 
-My research then tends to have multiple tiers:
+At present, I am particularly interested in advancing the state of the
+art of programming **adaptive multi-agent systems**, where multiple
+agents cooperate towards a common objective in highly dynamic
+environments.
+
+My intent is to conduct research across multiple tiers:
 
   1. Identify some challenges that programmers have when programming in
      the particular domain.
