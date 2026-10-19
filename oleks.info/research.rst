@@ -46,7 +46,7 @@ My research then tends to have multiple tiers:
   2. Hypothesise improvements, design and implement them in the form
      of alternative programming languages or runtimes.
 
-  3. Evaluate whether the hypothesized programming paradigm is really
+  3. Evaluate whether the hypothesised programming paradigm is really
      somehow "better" than what was found challenging in (1).
 
 As such and overall, I have also gained a research interest in
