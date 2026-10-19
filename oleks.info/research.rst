@@ -17,8 +17,8 @@ evidence of their utility.
 
 Recent advances in artificial intelligence have generally shifted the
 human challenges involved in programming from writing to specifying
-and evaluating programs. This does not make programming paradigm
-research any less important. In particular, I conjecture:
+and evaluating programs. Still, programming paradigm research remains
+important. In particular, I conjecture:
 
   1. It is easier to evaluate concise, high-level code, rather than
      verbose, low-level code.
